@@ -5,7 +5,7 @@ const fs = require('fs');
 require('dotenv/config');
 const http = require('http');
 const port = process.env.PORT || 3000;
-// Simple Server
+// This is a simple server
 http.createServer().listen(port);
 
 // initialise are bot
